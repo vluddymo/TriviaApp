@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #51d2d6;
+    color: #fff;
+    font-family: 'Trebuchet MS', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#game {
+    display: flex;
+    margin-top: 25px;
+}
+
+.genre-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    font-size: 100px;
+    border: solid yellow 2px;
+    background-color: #57a051;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.true-button {
+    background-color: #32cd3a;
+}
+
+.false-button {
+    background-color: #c22d1a;
+}
+
+button {
+    margin: 5px;
+}
+
+.correct-answer {
+    background-color: #32cd3a;
+}
+
+.wrong-answer {
+    background-color: #c22d1a;
+}
