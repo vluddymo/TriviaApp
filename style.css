@@ -30,8 +30,21 @@ body {
     background-color: #57a051;
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
 }
+
+.usedCard {
+    width: 200px;
+    height: 120px;
+    border: solid yellow 2px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .true-button {
     background-color: #32cd3a;
